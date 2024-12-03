@@ -18,9 +18,9 @@ package com.pakulov.jersey.protobuf.internal;
 import com.pakulov.jersey.protobuf.ProtobufFeature;
 import org.glassfish.jersey.internal.spi.AutoDiscoverable;
 
-import javax.annotation.Priority;
-import javax.ws.rs.Priorities;
-import javax.ws.rs.core.FeatureContext;
+import jakarta.annotation.Priority;
+import jakarta.ws.rs.Priorities;
+import jakarta.ws.rs.core.FeatureContext;
 
 @Priority(Priorities.ENTITY_CODER)
 public class ProtobufAutoDiscoverable implements AutoDiscoverable {
