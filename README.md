@@ -1,4 +1,4 @@
-Protobuf Provider for Jersey 2.x
+Protobuf Provider for Jersey 3.x
 ================================
 
 Install
